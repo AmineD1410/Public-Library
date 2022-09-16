@@ -59,9 +59,7 @@ function createElement() {
     removeBtn.setAttribute('btnIndex',i); //Set the same attribute as the row to create a link to be able to remove it
     removeBtn.setAttribute('src', './Ressources/remove.png');
     removeCell.appendChild(removeBtn);
-    
     removeBtn.addEventListener('click', removeElement);
-    console.table(myLibrary);
 }
 
 function removeElement () {
